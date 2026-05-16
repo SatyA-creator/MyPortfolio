@@ -2030,8 +2030,45 @@ body.dark {
 	white-space: nowrap;
 }
 
+.portfolio-items .details ul li.highlights {
+	width: 100%;
+	white-space: normal;
+}
+
 .portfolio-items .details ul li span:nth-child(2) {
 	font-weight: 500;
+}
+
+.btn-live-demo {
+	display: inline-block;
+	background: #1e0f21;
+	color: #fff;
+	text-decoration: none;
+	padding: 12px 30px;
+	margin-top: 20px;
+	border-radius: 50px;
+	font-size: 16px;
+	font-weight: 500;
+	transition: all 0.3s ease;
+	border: 2px solid #1e0f21;
+}
+
+.btn-live-demo:hover {
+	background: transparent;
+	color: #1e0f21;
+	border-color: #1e0f21;
+}
+
+.dark .btn-live-demo {
+	background: #fff;
+	color: #1e0f21;
+	border-color: #fff;
+}
+
+.dark .btn-live-demo:hover {
+	background: transparent;
+	color: #fff;
+	border-color: #fff;
 }
 
 .arrows {
