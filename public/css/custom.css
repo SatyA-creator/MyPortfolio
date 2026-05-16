@@ -1,0 +1,11 @@
+.portfolio-grid .grid li img {
+	object-fit: contain;
+	height: 20%;
+	width: 20%;
+	display: block;
+	margin: 0 auto;
+}
+
+.portfolio-grid ul.grid li {
+    width: 360px;
+}
